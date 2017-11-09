@@ -2,3 +2,5 @@
 /.idea
 /target
 .DS_Store
+/pom.xml
+/pom.xml.asc

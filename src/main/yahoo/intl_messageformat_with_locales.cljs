@@ -1,5 +1,4 @@
 (ns yahoo.intl-messageformat-with-locales
-  (:require ["intl-messageformat" :as intl-messageformat-with-locales]
-            [goog.object :as gobj]))
+  (:require ["intl-messageformat" :as intl-messageformat-with-locales]))
 
-(gobj/set js/window "IntlMessageFormat" intl-messageformat-with-locales)
+(js/goog.exportSymbol "IntlMessageFormat" intl-messageformat-with-locales)
