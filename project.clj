@@ -3,6 +3,10 @@
   :url "https://github.com/thheller/shadow-cljs"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
+  
+  :repositories
+  {"clojars" {:url "https://clojars.org/repo"
+              :sign-releases false}}
 
   :dependencies
   [[org.clojure/clojurescript "1.9.946" :scope "provided"]]
