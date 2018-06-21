@@ -1,4 +1,3 @@
 (ns firebase.database
-  (:require ["firebase" :as firebase]))
+  (:require ["@firebase/database"]))
 
-(js/goog.exportSymbol "firebase" firebase)

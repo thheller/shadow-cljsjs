@@ -1,4 +1,5 @@
 (ns firebase.app
-  (:require ["firebase" :as firebase]))
+  (:require ["@firebase/app" :refer (firebase)]))
+
 
 (js/goog.exportSymbol "firebase" firebase)
