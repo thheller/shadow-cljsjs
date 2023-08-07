@@ -1,5 +1,6 @@
 *.iml
 /.idea
+/.cpcache
 /target
 .DS_Store
 /pom.xml

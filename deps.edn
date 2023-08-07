@@ -1,0 +1,3 @@
+;; project actually managed by project.clj
+;; just exists for deps.edn users and git-deps local/root support
+{:paths ["src/main"]}
